@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAttributeAdd">
+        <xpath>Defs/DesignationCategoryDef[defName = "skylights"]</xpath>
+        <attribute>Class</attribute>
+        <value>Revolus.DragSkylights.CategoryDef_Hidden</value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/DesignationCategoryDef[defName = "Structure"]/specialDesignatorClasses</xpath>
+        <value>
+            <li>Revolus.DragSkylights.Designator_AddSkylight</li>
+            <li>Dubs_Skylight.Designator_RemoveSkylights</li>
+        </value>
+    </Operation>
+</Patch>

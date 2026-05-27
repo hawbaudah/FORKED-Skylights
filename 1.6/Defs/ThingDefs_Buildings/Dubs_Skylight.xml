@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="BasedSkyLight" Abstract="True">
+        <label>Skylight</label>
+        <description>Lets in daylight through a window in the roof.</description>
+        <thingClass>Dubs_Skylight.Building_skyLight</thingClass>
+        <blockLight>false</blockLight>
+        <holdsRoof>false</holdsRoof>
+        <graphicData>
+            <texPath>Things/Building/skylight</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
+            <drawSize>(1.0,1.0)</drawSize>
+        </graphicData>
+        <category>Building</category>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <repairEffect>Repair</repairEffect>
+        <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+        <tickerType>Rare</tickerType>
+        <fillPercent>0</fillPercent>
+        <altitudeLayer>Weather</altitudeLayer>
+        <passability>Standable</passability>
+        <selectable>false</selectable>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <rotatable>true</rotatable>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToBuild>135</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>5</Beauty>
+        </statBases>
+        <placeWorkers>
+            <li>Dubs_Skylight.PlaceWorker_Skylight</li>
+        </placeWorkers>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Building/skylightBP</texPath>
+            </blueprintGraphicData>
+            <isInert>true</isInert>
+            <isEdifice>false</isEdifice>
+            <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+        </building>
+        <clearBuildingArea>false</clearBuildingArea>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightA</defName>
+        <label>1x1 Skylight</label>
+        <graphicData>
+            <drawSize>(1,1)</drawSize>
+            <texPath>Things/Building/skylight</texPath>
+        </graphicData>
+        <drawStyleCategory>Default1D</drawStyleCategory>
+        <costList>
+            <GlassPane>1</GlassPane>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightD</defName>
+        <label>2x2 Skylight</label>
+        <graphicData>
+            <drawSize>(2,2)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(2,2)</size>
+        <costList>
+            <GlassPane>2</GlassPane>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightB</defName>
+        <label>3x3 Skylight</label>
+        <graphicData>
+            <drawSize>(3,3)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,3)</size>
+        <costList>
+            <GlassPane>3</GlassPane>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightC</defName>
+        <label>1x4 Skylight</label>
+        <graphicData>
+            <drawSize>(1,4)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,4)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane>2</GlassPane>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightE</defName>
+        <label>1x2 Skylight</label>
+        <graphicData>
+            <drawSize>(1,2)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,2)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">1</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">2</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightF</defName>
+        <label>1x3 Skylight</label>
+        <graphicData>
+            <drawSize>(1,3)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(1,3)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">2</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">3</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightG</defName>
+        <label>2x3 Skylight</label>
+        <graphicData>
+            <drawSize>(2,3)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(2,3)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">3</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">6</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightH</defName>
+        <label>2x4 Skylight</label>
+        <graphicData>
+            <drawSize>(2,4)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(2,4)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">4</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">8</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightI</defName>
+        <label>3x4 Skylight</label>
+        <graphicData>
+            <drawSize>(3,4)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(3,4)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">12</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightJ</defName>
+        <label>2x5 Skylight</label>
+        <graphicData>
+            <drawSize>(2,5)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(2,5)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">5</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">10</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightK</defName>
+        <label>2x6 Skylight</label>
+        <graphicData>
+            <drawSize>(2,6)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(2,6)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">12</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightL</defName>
+        <label>2x7 Skylight</label>
+        <graphicData>
+            <drawSize>(2,7)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(2,7)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">7</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">14</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightM</defName>
+        <label>4x4 Skylight</label>
+        <graphicData>
+            <drawSize>(4,4)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,4)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">8</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">16</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightN</defName>
+        <label>1x5 Skylight</label>
+        <graphicData>
+            <drawSize>(1,5)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,5)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">3</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">5</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightO</defName>
+        <label>1x6 Skylight</label>
+        <graphicData>
+            <drawSize>(1,6)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,6)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">3</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">6</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightP</defName>
+        <label>1x7 Skylight</label>
+        <graphicData>
+            <drawSize>(1,7)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,7)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">4</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">7</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightQ</defName>
+        <label>1x8 Skylight</label>
+        <graphicData>
+            <drawSize>(1,8)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,8)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">4</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">8</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightR</defName>
+        <label>1x9 Skylight</label>
+        <graphicData>
+            <drawSize>(1,9)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,9)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">5</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">9</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightS</defName>
+        <label>1x10 Skylight</label>
+        <graphicData>
+            <drawSize>(1,10)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,10)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">5</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">10</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightT</defName>
+        <label>1x11 Skylight</label>
+        <graphicData>
+            <drawSize>(1,11)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,11)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">11</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightU</defName>
+        <label>1x12 Skylight</label>
+        <graphicData>
+            <drawSize>(1,12)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(1,12)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">12</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightV</defName>
+        <label>5x5 Skylight</label>
+        <graphicData>
+            <drawSize>(5,5)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(5,5)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">13</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">25</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightW</defName>
+        <label>6x6 Skylight</label>
+        <graphicData>
+            <drawSize>(6,6)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(6,6)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">36</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightX</defName>
+        <label>7x7 Skylight</label>
+        <graphicData>
+            <drawSize>(7,7)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(7,7)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">25</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">49</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightY</defName>
+        <label>8x8 Skylight</label>
+        <graphicData>
+            <drawSize>(8,8)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(8,8)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">32</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">64</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightZ</defName>
+        <label>9x9 Skylight</label>
+        <graphicData>
+            <drawSize>(9,9)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(9,9)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">41</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">81</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAA</defName>
+        <label>10x10 Skylight</label>
+        <graphicData>
+            <drawSize>(10,10)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(10,10)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">50</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">100</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAB</defName>
+        <label>11x11 Skylight</label>
+        <graphicData>
+            <drawSize>(11,11)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(11,11)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">61</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">121</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAC</defName>
+        <label>12x12 Skylight</label>
+        <graphicData>
+            <drawSize>(12,12)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(12,12)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">72</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">144</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAD</defName>
+        <label>2x8 Skylight</label>
+        <graphicData>
+            <drawSize>(2,8)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(2,8)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">8</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">16</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAE</defName>
+        <label>2x9 Skylight</label>
+        <graphicData>
+            <drawSize>(2,9)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(2,9)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">9</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">18</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAF</defName>
+        <label>2x10 Skylight</label>
+        <graphicData>
+            <drawSize>(2,10)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(2,10)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">10</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">20</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAG</defName>
+        <label>2x11 Skylight</label>
+        <graphicData>
+            <drawSize>(2,11)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(2,11)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">11</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">22</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAH</defName>
+        <label>2x12 Skylight</label>
+        <graphicData>
+            <drawSize>(2,12)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(2,12)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">12</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">24</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAI</defName>
+        <label>3x5 Skylight</label>
+        <graphicData>
+            <drawSize>(3,5)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,5)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">8</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">15</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAJ</defName>
+        <label>3x6 Skylight</label>
+        <graphicData>
+            <drawSize>(3,6)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,6)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">9</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">18</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAK</defName>
+        <label>3x7 Skylight</label>
+        <graphicData>
+            <drawSize>(3,7)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,7)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">11</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">21</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAL</defName>
+        <label>3x8 Skylight</label>
+        <graphicData>
+            <drawSize>(3,8)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,8)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">12</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">24</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAM</defName>
+        <label>3x9 Skylight</label>
+        <graphicData>
+            <drawSize>(3,9)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,9)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">14</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">27</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAN</defName>
+        <label>3x10 Skylight</label>
+        <graphicData>
+            <drawSize>(3,10)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,10)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">15</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">30</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAO</defName>
+        <label>3x11 Skylight</label>
+        <graphicData>
+            <drawSize>(3,11)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,11)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">17</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">33</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAP</defName>
+        <label>3x12 Skylight</label>
+        <graphicData>
+            <drawSize>(3,12)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(3,12)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">36</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAQ</defName>
+        <label>4x5 Skylight</label>
+        <graphicData>
+            <drawSize>(4,5)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,5)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">10</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">20</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAR</defName>
+        <label>4x6 Skylight</label>
+        <graphicData>
+            <drawSize>(4,6)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,6)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">12</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">24</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAS</defName>
+        <label>4x7 Skylight</label>
+        <graphicData>
+            <drawSize>(4,7)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,7)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">14</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">28</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAT</defName>
+        <label>4x8 Skylight</label>
+        <graphicData>
+            <drawSize>(4,8)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,8)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">16</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">32</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightRef</defName>
+        <label>4x9 Skylight</label>
+        <graphicData>
+            <drawSize>(4,9)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,9)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">36</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAV</defName>
+        <label>4x10 Skylight</label>
+        <graphicData>
+            <drawSize>(4,10)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,10)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">20</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">40</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAW</defName>
+        <label>4x11 Skylight</label>
+        <graphicData>
+            <drawSize>(4,11)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,11)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">22</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">44</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAX</defName>
+        <label>4x12 Skylight</label>
+        <graphicData>
+            <drawSize>(4,12)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,12)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">24</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">48</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAY</defName>
+        <label>5x6 Skylight</label>
+        <graphicData>
+            <drawSize>(5,6)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(5,6)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">15</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">30</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAZ</defName>
+        <label>5x7 Skylight</label>
+        <graphicData>
+            <drawSize>(5,7)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(5,7)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">35</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBA</defName>
+        <label>5x8 Skylight</label>
+        <graphicData>
+            <drawSize>(5,8)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(5,8)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">20</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">40</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBB</defName>
+        <label>5x9 Skylight</label>
+        <graphicData>
+            <drawSize>(5,9)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(5,9)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">23</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">45</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBC</defName>
+        <label>5x10 Skylight</label>
+        <graphicData>
+            <drawSize>(5,10)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(5,10)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">25</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">50</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBD</defName>
+        <label>5x11 Skylight</label>
+        <graphicData>
+            <drawSize>(5,11)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(5,11)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">28</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">55</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBE</defName>
+        <label>5x12 Skylight</label>
+        <graphicData>
+            <drawSize>(5,12)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(5,12)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">30</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">60</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBF</defName>
+        <label>6x7 Skylight</label>
+        <graphicData>
+            <drawSize>(6,7)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(6,7)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">21</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">42</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBG</defName>
+        <label>6x8 Skylight</label>
+        <graphicData>
+            <drawSize>(6,8)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(6,8)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">24</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">48</RB_Glass>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightBH</defName>
+        <label>6x9 Skylight</label>
+        <graphicData>
+            <drawSize>(6,9)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(6,9)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">27</GlassPane>
+            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">54</RB_Glass>
+        </costList>
+    </ThingDef>
+
+</Defs>
