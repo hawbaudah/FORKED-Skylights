@@ -5,7 +5,6 @@
         <attribute>Class</attribute>
         <value>Revolus.DragSkylights.CategoryDef_Hidden</value>
     </Operation>
-
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/DesignationCategoryDef[defName = "Structure"]/specialDesignatorClasses</xpath>
         <value>
