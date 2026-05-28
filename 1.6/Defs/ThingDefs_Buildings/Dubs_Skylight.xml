@@ -108,8 +108,7 @@
         <size>(1,2)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">1</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">2</RB_Glass>
+            <GlassPane>1</GlassPane>
         </costList>
     </ThingDef>
 
@@ -123,8 +122,7 @@
         <size>(1,3)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">2</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">3</RB_Glass>
+            <GlassPane>2</GlassPane>
         </costList>
     </ThingDef>
 
@@ -138,8 +136,7 @@
         <size>(2,3)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">3</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">6</RB_Glass>
+            <GlassPane>3</GlassPane>
         </costList>
     </ThingDef>
 
@@ -153,8 +150,7 @@
         <size>(2,4)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">4</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">8</RB_Glass>
+            <GlassPane>4</GlassPane>
         </costList>
     </ThingDef>
 
@@ -168,8 +164,7 @@
         <size>(3,4)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">12</RB_Glass>
+            <GlassPane>6</GlassPane>
         </costList>
     </ThingDef>
 
@@ -183,8 +178,7 @@
         <size>(2,5)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">5</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">10</RB_Glass>
+            <GlassPane>5</GlassPane>
         </costList>
     </ThingDef>
 
@@ -198,8 +192,7 @@
         <size>(2,6)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">12</RB_Glass>
+            <GlassPane>6</GlassPane>
         </costList>
     </ThingDef>
 
@@ -213,8 +206,7 @@
         <size>(2,7)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">7</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">14</RB_Glass>
+            <GlassPane>7</GlassPane>
         </costList>
     </ThingDef>
 
@@ -228,8 +220,7 @@
         <size>(4,4)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">8</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">16</RB_Glass>
+            <GlassPane>8</GlassPane>
         </costList>
     </ThingDef>
 
@@ -243,8 +234,7 @@
         <size>(1,5)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">3</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">5</RB_Glass>
+            <GlassPane>3</GlassPane>
         </costList>
     </ThingDef>
 
@@ -258,8 +248,7 @@
         <size>(1,6)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">3</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">6</RB_Glass>
+            <GlassPane>3</GlassPane>
         </costList>
     </ThingDef>
 
@@ -273,8 +262,7 @@
         <size>(1,7)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">4</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">7</RB_Glass>
+            <GlassPane>4</GlassPane>
         </costList>
     </ThingDef>
 
@@ -288,8 +276,7 @@
         <size>(1,8)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">4</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">8</RB_Glass>
+            <GlassPane>4</GlassPane>
         </costList>
     </ThingDef>
 
@@ -303,8 +290,7 @@
         <size>(1,9)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">5</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">9</RB_Glass>
+            <GlassPane>5</GlassPane>
         </costList>
     </ThingDef>
 
@@ -318,8 +304,7 @@
         <size>(1,10)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">5</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">10</RB_Glass>
+            <GlassPane>5</GlassPane>
         </costList>
     </ThingDef>
 
@@ -333,8 +318,7 @@
         <size>(1,11)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">11</RB_Glass>
+            <GlassPane>6</GlassPane>
         </costList>
     </ThingDef>
 
@@ -348,8 +332,7 @@
         <size>(1,12)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">6</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">12</RB_Glass>
+            <GlassPane>6</GlassPane>
         </costList>
     </ThingDef>
 
@@ -363,8 +346,7 @@
         <size>(5,5)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">13</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">25</RB_Glass>
+            <GlassPane>13</GlassPane>
         </costList>
     </ThingDef>
 
@@ -378,8 +360,7 @@
         <size>(6,6)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">36</RB_Glass>
+            <GlassPane>18</GlassPane>
         </costList>
     </ThingDef>
 
@@ -393,8 +374,7 @@
         <size>(7,7)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">25</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">49</RB_Glass>
+            <GlassPane>25</GlassPane>
         </costList>
     </ThingDef>
 
@@ -408,8 +388,7 @@
         <size>(8,8)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">32</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">64</RB_Glass>
+            <GlassPane>32</GlassPane>
         </costList>
     </ThingDef>
 
@@ -423,8 +402,7 @@
         <size>(9,9)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">41</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">81</RB_Glass>
+            <GlassPane>41</GlassPane>
         </costList>
     </ThingDef>
 
@@ -438,8 +416,7 @@
         <size>(10,10)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">50</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">100</RB_Glass>
+            <GlassPane>50</GlassPane>
         </costList>
     </ThingDef>
 
@@ -453,8 +430,7 @@
         <size>(11,11)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">61</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">121</RB_Glass>
+            <GlassPane>61</GlassPane>
         </costList>
     </ThingDef>
 
@@ -468,8 +444,7 @@
         <size>(12,12)</size>
         <rotatable>false</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">72</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">144</RB_Glass>
+            <GlassPane>72</GlassPane>
         </costList>
     </ThingDef>
 
@@ -483,8 +458,7 @@
         <size>(2,8)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">8</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">16</RB_Glass>
+            <GlassPane>8</GlassPane>
         </costList>
     </ThingDef>
 
@@ -498,8 +472,7 @@
         <size>(2,9)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">9</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">18</RB_Glass>
+            <GlassPane>9</GlassPane>
         </costList>
     </ThingDef>
 
@@ -513,8 +486,7 @@
         <size>(2,10)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">10</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">20</RB_Glass>
+            <GlassPane>10</GlassPane>
         </costList>
     </ThingDef>
 
@@ -528,8 +500,7 @@
         <size>(2,11)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">11</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">22</RB_Glass>
+            <GlassPane>11</GlassPane>
         </costList>
     </ThingDef>
 
@@ -543,8 +514,7 @@
         <size>(2,12)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">12</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">24</RB_Glass>
+            <GlassPane>12</GlassPane>
         </costList>
     </ThingDef>
 
@@ -558,8 +528,7 @@
         <size>(3,5)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">8</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">15</RB_Glass>
+            <GlassPane>8</GlassPane>
         </costList>
     </ThingDef>
 
@@ -573,8 +542,7 @@
         <size>(3,6)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">9</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">18</RB_Glass>
+            <GlassPane>9</GlassPane>
         </costList>
     </ThingDef>
 
@@ -588,8 +556,7 @@
         <size>(3,7)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">11</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">21</RB_Glass>
+            <GlassPane>11</GlassPane>
         </costList>
     </ThingDef>
 
@@ -603,8 +570,7 @@
         <size>(3,8)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">12</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">24</RB_Glass>
+            <GlassPane>12</GlassPane>
         </costList>
     </ThingDef>
 
@@ -618,8 +584,7 @@
         <size>(3,9)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">14</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">27</RB_Glass>
+            <GlassPane>14</GlassPane>
         </costList>
     </ThingDef>
 
@@ -633,8 +598,7 @@
         <size>(3,10)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">15</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">30</RB_Glass>
+            <GlassPane>15</GlassPane>
         </costList>
     </ThingDef>
 
@@ -648,8 +612,7 @@
         <size>(3,11)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">17</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">33</RB_Glass>
+            <GlassPane>17</GlassPane>
         </costList>
     </ThingDef>
 
@@ -663,8 +626,7 @@
         <size>(3,12)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">36</RB_Glass>
+            <GlassPane>18</GlassPane>
         </costList>
     </ThingDef>
 
@@ -678,8 +640,7 @@
         <size>(4,5)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">10</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">20</RB_Glass>
+            <GlassPane>10</GlassPane>
         </costList>
     </ThingDef>
 
@@ -693,8 +654,7 @@
         <size>(4,6)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">12</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">24</RB_Glass>
+            <GlassPane>12</GlassPane>
         </costList>
     </ThingDef>
 
@@ -708,8 +668,7 @@
         <size>(4,7)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">14</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">28</RB_Glass>
+            <GlassPane>14</GlassPane>
         </costList>
     </ThingDef>
 
@@ -723,8 +682,7 @@
         <size>(4,8)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">16</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">32</RB_Glass>
+            <GlassPane>16</GlassPane>
         </costList>
     </ThingDef>
 
@@ -738,8 +696,7 @@
         <size>(4,9)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">36</RB_Glass>
+            <GlassPane>18</GlassPane>
         </costList>
     </ThingDef>
 
@@ -753,8 +710,7 @@
         <size>(4,10)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">20</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">40</RB_Glass>
+            <GlassPane>20</GlassPane>
         </costList>
     </ThingDef>
 
@@ -768,8 +724,7 @@
         <size>(4,11)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">22</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">44</RB_Glass>
+            <GlassPane>22</GlassPane>
         </costList>
     </ThingDef>
 
@@ -783,8 +738,7 @@
         <size>(4,12)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">24</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">48</RB_Glass>
+            <GlassPane>24</GlassPane>
         </costList>
     </ThingDef>
 
@@ -798,8 +752,7 @@
         <size>(5,6)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">15</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">30</RB_Glass>
+            <GlassPane>15</GlassPane>
         </costList>
     </ThingDef>
 
@@ -813,8 +766,7 @@
         <size>(5,7)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">18</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">35</RB_Glass>
+            <GlassPane>18</GlassPane>
         </costList>
     </ThingDef>
 
@@ -828,8 +780,7 @@
         <size>(5,8)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">20</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">40</RB_Glass>
+            <GlassPane>20</GlassPane>
         </costList>
     </ThingDef>
 
@@ -843,8 +794,7 @@
         <size>(5,9)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">23</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">45</RB_Glass>
+            <GlassPane>23</GlassPane>
         </costList>
     </ThingDef>
 
@@ -858,8 +808,7 @@
         <size>(5,10)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">25</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">50</RB_Glass>
+            <GlassPane>25</GlassPane>
         </costList>
     </ThingDef>
 
@@ -873,8 +822,7 @@
         <size>(5,11)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">28</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">55</RB_Glass>
+            <GlassPane>28</GlassPane>
         </costList>
     </ThingDef>
 
@@ -888,8 +836,7 @@
         <size>(5,12)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">30</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">60</RB_Glass>
+            <GlassPane>30</GlassPane>
         </costList>
     </ThingDef>
 
@@ -903,8 +850,7 @@
         <size>(6,7)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">21</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">42</RB_Glass>
+            <GlassPane>21</GlassPane>
         </costList>
     </ThingDef>
 
@@ -918,8 +864,7 @@
         <size>(6,8)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">24</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">48</RB_Glass>
+            <GlassPane>24</GlassPane>
         </costList>
     </ThingDef>
 
@@ -933,8 +878,7 @@
         <size>(6,9)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane MayRequire="!rebuild.cotr.doorsandcorners">27</GlassPane>
-            <RB_Glass MayRequire="rebuild.cotr.doorsandcorners">54</RB_Glass>
+            <GlassPane>27</GlassPane>
         </costList>
     </ThingDef>
 

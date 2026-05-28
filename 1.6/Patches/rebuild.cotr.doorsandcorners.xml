@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch MayRequire="rebuild.cotr.doorsandcorners">
+
+	<!-- ================= HIDE GLASS PANE RECIPES ================= -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="SmeltGlass" or defName="SmeltGlass4x"]</xpath>
+	</Operation>
+
+	<!-- ================= SKYLIGHT COST REPLACEMENTS ================= -->
+	<!-- 1x2 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightE"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>2</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x3 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightF"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>3</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x3 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightG"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>6</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x4 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightH"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>8</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x4 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightI"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>12</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x5 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightJ"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>10</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x6 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightK"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>12</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x7 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightL"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>14</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x4 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightM"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>16</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x5 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightN"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>5</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x6 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightO"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>6</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x7 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightP"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>7</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x8 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightQ"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>8</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x9 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightR"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>9</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x10 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightS"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>10</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x11 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightT"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>11</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 1x12 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightU"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>12</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x5 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightV"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>25</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 6x6 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightW"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>36</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 7x7 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightX"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>49</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 8x8 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightY"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>64</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 9x9 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightZ"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>81</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 10x10 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAA"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>100</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 11x11 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAB"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>121</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 12x12 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAC"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>144</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x8 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAD"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>16</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x9 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAE"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>18</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x10 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAF"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>20</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x11 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAG"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>22</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 2x12 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAH"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>24</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x5 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAI"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>15</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x6 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAJ"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>18</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x7 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAK"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>21</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x8 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAL"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>24</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x9 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAM"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>27</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x10 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAN"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>30</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x11 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAO"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>33</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 3x12 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAP"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>36</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x5 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAQ"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>20</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x6 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAR"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>24</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x7 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAS"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>28</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x8 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAT"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>32</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x9 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightRef"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>36</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x10 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAV"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>40</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x11 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAW"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>44</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 4x12 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAX"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>48</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x6 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAY"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>30</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x7 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightAZ"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>35</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x8 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBA"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>40</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x9 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBB"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>45</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x10 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBC"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>50</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x11 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBD"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>55</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 5x12 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBE"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>60</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 6x7 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBF"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>42</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 6x8 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBG"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>48</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+	<!-- 6x9 Skylight -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="SkyLightBH"]/costList</xpath>
+		<value>
+			<costList>
+				<RB_Glass>54</RB_Glass>
+			</costList>
+		</value>
+	</Operation>
+
+</Patch>
