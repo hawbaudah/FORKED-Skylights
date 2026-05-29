@@ -6,6 +6,12 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[defName="SmeltGlass"]</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/RecipeDef[defName="SmeltGlass4x"]</xpath>
+                </li>
                 <li Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="SkyLightA"]/costList</xpath>
                     <value>
