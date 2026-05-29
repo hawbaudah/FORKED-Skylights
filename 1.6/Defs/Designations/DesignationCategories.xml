@@ -6,7 +6,7 @@
     <DesignationCategoryDef>
         <defName>skylights</defName>
         <label>Skylights</label>
-        <description>Lights in the Sky.</description>
+        <description>Skylights.</description>
         <order>10</order>
         <specialDesignatorClasses>
             <li>Designator_Cancel</li>

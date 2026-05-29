@@ -2,7 +2,7 @@
 <ModMetaData>
     <name>FORKED Skylights</name>
     <packageId>legend.forkedskylights</packageId>
-    <modVersion>2.26.2026</modVersion>
+    <modVersion>5.29.2026</modVersion>
     <author>legend</author>
     <supportedVersions>
         <li>1.6</li>
@@ -25,5 +25,5 @@
         <li>ludeon.rimworld.odyssey</li>
         <li>rebuild.cotr.doorsandcorners</li>
     </loadAfter>
-    <description>I didn't like having to add 5 whole ass mods to use Skylights in a practical manner.</description>
+    <description>Lights in the Sky.</description>
 </ModMetaData>
