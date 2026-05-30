@@ -3,5 +3,6 @@
     <v1.6>
         <li>/</li>
         <li>1.6</li>
+		<li IfModActive="rebuild.cotr.doorsandcorners">Patches/rebuild.cotr.doorsandcorners</li>
     </v1.6>
 </loadFolders>

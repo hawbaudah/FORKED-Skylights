@@ -122,97 +122,6 @@
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
         <defName>SkyLightG</defName>
-        <label>2x3 Skylight</label>
-        <graphicData>
-            <drawSize>(2,3)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
-        </graphicData>
-        <size>(2,3)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>3</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightH</defName>
-        <label>2x4 Skylight</label>
-        <graphicData>
-            <drawSize>(2,4)</drawSize>
-            <texPath>Things/Building/skylight1x4</texPath>
-        </graphicData>
-        <size>(2,4)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>4</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightI</defName>
-        <label>3x4 Skylight</label>
-        <graphicData>
-            <drawSize>(3,4)</drawSize>
-            <texPath>Things/Building/skylight1x4</texPath>
-        </graphicData>
-        <size>(3,4)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>6</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightJ</defName>
-        <label>2x5 Skylight</label>
-        <graphicData>
-            <drawSize>(2,5)</drawSize>
-            <texPath>Things/Building/skylight1x4</texPath>
-        </graphicData>
-        <size>(2,5)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>5</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightK</defName>
-        <label>2x6 Skylight</label>
-        <graphicData>
-            <drawSize>(2,6)</drawSize>
-            <texPath>Things/Building/skylight1x4</texPath>
-        </graphicData>
-        <size>(2,6)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>6</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightL</defName>
-        <label>2x7 Skylight</label>
-        <graphicData>
-            <drawSize>(2,7)</drawSize>
-            <texPath>Things/Building/skylight1x4</texPath>
-        </graphicData>
-        <size>(2,7)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>7</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightM</defName>
-        <label>4x4 Skylight</label>
-        <graphicData>
-            <drawSize>(4,4)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
-        </graphicData>
-        <size>(4,4)</size>
-        <rotatable>false</rotatable>
-        <costList>
-            <GlassPane>8</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightN</defName>
         <label>1x5 Skylight</label>
         <graphicData>
             <drawSize>(1,5)</drawSize>
@@ -225,7 +134,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightO</defName>
+        <defName>SkyLightH</defName>
         <label>1x6 Skylight</label>
         <graphicData>
             <drawSize>(1,6)</drawSize>
@@ -238,7 +147,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightP</defName>
+        <defName>SkyLightI</defName>
         <label>1x7 Skylight</label>
         <graphicData>
             <drawSize>(1,7)</drawSize>
@@ -251,7 +160,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightQ</defName>
+        <defName>SkyLightJ</defName>
         <label>1x8 Skylight</label>
         <graphicData>
             <drawSize>(1,8)</drawSize>
@@ -264,7 +173,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightR</defName>
+        <defName>SkyLightK</defName>
         <label>1x9 Skylight</label>
         <graphicData>
             <drawSize>(1,9)</drawSize>
@@ -277,7 +186,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightS</defName>
+        <defName>SkyLightL</defName>
         <label>1x10 Skylight</label>
         <graphicData>
             <drawSize>(1,10)</drawSize>
@@ -290,7 +199,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightT</defName>
+        <defName>SkyLightM</defName>
         <label>1x11 Skylight</label>
         <graphicData>
             <drawSize>(1,11)</drawSize>
@@ -303,7 +212,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightU</defName>
+        <defName>SkyLightN</defName>
         <label>1x12 Skylight</label>
         <graphicData>
             <drawSize>(1,12)</drawSize>
@@ -316,111 +225,72 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightV</defName>
-        <label>5x5 Skylight</label>
+        <defName>SkyLightO</defName>
+        <label>2x3 Skylight</label>
         <graphicData>
-            <drawSize>(5,5)</drawSize>
-            <texPath>Things/Building/skylight1x4</texPath>
+            <drawSize>(2,3)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
         </graphicData>
-        <size>(5,5)</size>
+        <size>(2,3)</size>
         <rotatable>true</rotatable>
         <costList>
-            <GlassPane>13</GlassPane>
+            <GlassPane>3</GlassPane>
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightW</defName>
-        <label>6x6 Skylight</label>
+        <defName>SkyLightP</defName>
+        <label>2x4 Skylight</label>
         <graphicData>
-            <drawSize>(6,6)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
+            <drawSize>(2,4)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
         </graphicData>
-        <size>(6,6)</size>
-        <rotatable>false</rotatable>
+        <size>(2,4)</size>
+        <rotatable>true</rotatable>
         <costList>
-            <GlassPane>18</GlassPane>
+            <GlassPane>4</GlassPane>
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightX</defName>
-        <label>7x7 Skylight</label>
+        <defName>SkyLightQ</defName>
+        <label>2x5 Skylight</label>
         <graphicData>
-            <drawSize>(7,7)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
+            <drawSize>(2,5)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
         </graphicData>
-        <size>(7,7)</size>
-        <rotatable>false</rotatable>
+        <size>(2,5)</size>
+        <rotatable>true</rotatable>
         <costList>
-            <GlassPane>25</GlassPane>
+            <GlassPane>5</GlassPane>
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightY</defName>
-        <label>8x8 Skylight</label>
+        <defName>SkyLightR</defName>
+        <label>2x6 Skylight</label>
         <graphicData>
-            <drawSize>(8,8)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
+            <drawSize>(2,6)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
         </graphicData>
-        <size>(8,8)</size>
-        <rotatable>false</rotatable>
+        <size>(2,6)</size>
+        <rotatable>true</rotatable>
         <costList>
-            <GlassPane>32</GlassPane>
+            <GlassPane>6</GlassPane>
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightZ</defName>
-        <label>9x9 Skylight</label>
+        <defName>SkyLightS</defName>
+        <label>2x7 Skylight</label>
         <graphicData>
-            <drawSize>(9,9)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
+            <drawSize>(2,7)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
         </graphicData>
-        <size>(9,9)</size>
-        <rotatable>false</rotatable>
+        <size>(2,7)</size>
+        <rotatable>true</rotatable>
         <costList>
-            <GlassPane>41</GlassPane>
+            <GlassPane>7</GlassPane>
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAA</defName>
-        <label>10x10 Skylight</label>
-        <graphicData>
-            <drawSize>(10,10)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
-        </graphicData>
-        <size>(10,10)</size>
-        <rotatable>false</rotatable>
-        <costList>
-            <GlassPane>50</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAB</defName>
-        <label>11x11 Skylight</label>
-        <graphicData>
-            <drawSize>(11,11)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
-        </graphicData>
-        <size>(11,11)</size>
-        <rotatable>false</rotatable>
-        <costList>
-            <GlassPane>61</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAC</defName>
-        <label>12x12 Skylight</label>
-        <graphicData>
-            <drawSize>(12,12)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
-        </graphicData>
-        <size>(12,12)</size>
-        <rotatable>false</rotatable>
-        <costList>
-            <GlassPane>72</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAD</defName>
+        <defName>SkyLightT</defName>
         <label>2x8 Skylight</label>
         <graphicData>
             <drawSize>(2,8)</drawSize>
@@ -433,7 +303,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAE</defName>
+        <defName>SkyLightU</defName>
         <label>2x9 Skylight</label>
         <graphicData>
             <drawSize>(2,9)</drawSize>
@@ -446,7 +316,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAF</defName>
+        <defName>SkyLightV</defName>
         <label>2x10 Skylight</label>
         <graphicData>
             <drawSize>(2,10)</drawSize>
@@ -459,7 +329,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAG</defName>
+        <defName>SkyLightW</defName>
         <label>2x11 Skylight</label>
         <graphicData>
             <drawSize>(2,11)</drawSize>
@@ -472,7 +342,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAH</defName>
+        <defName>SkyLightX</defName>
         <label>2x12 Skylight</label>
         <graphicData>
             <drawSize>(2,12)</drawSize>
@@ -485,7 +355,20 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAI</defName>
+        <defName>SkyLightY</defName>
+        <label>3x4 Skylight</label>
+        <graphicData>
+            <drawSize>(3,4)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(3,4)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane>6</GlassPane>
+        </costList>
+    </ThingDef>
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightZ</defName>
         <label>3x5 Skylight</label>
         <graphicData>
             <drawSize>(3,5)</drawSize>
@@ -498,7 +381,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAJ</defName>
+        <defName>SkyLightAA</defName>
         <label>3x6 Skylight</label>
         <graphicData>
             <drawSize>(3,6)</drawSize>
@@ -511,7 +394,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAK</defName>
+        <defName>SkyLightAB</defName>
         <label>3x7 Skylight</label>
         <graphicData>
             <drawSize>(3,7)</drawSize>
@@ -524,7 +407,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAL</defName>
+        <defName>SkyLightAC</defName>
         <label>3x8 Skylight</label>
         <graphicData>
             <drawSize>(3,8)</drawSize>
@@ -537,7 +420,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAM</defName>
+        <defName>SkyLightAD</defName>
         <label>3x9 Skylight</label>
         <graphicData>
             <drawSize>(3,9)</drawSize>
@@ -550,7 +433,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAN</defName>
+        <defName>SkyLightAE</defName>
         <label>3x10 Skylight</label>
         <graphicData>
             <drawSize>(3,10)</drawSize>
@@ -563,7 +446,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAO</defName>
+        <defName>SkyLightAF</defName>
         <label>3x11 Skylight</label>
         <graphicData>
             <drawSize>(3,11)</drawSize>
@@ -576,7 +459,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAP</defName>
+        <defName>SkyLightAG</defName>
         <label>3x12 Skylight</label>
         <graphicData>
             <drawSize>(3,12)</drawSize>
@@ -589,7 +472,20 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAQ</defName>
+        <defName>SkyLightAH</defName>
+        <label>4x4 Skylight</label>
+        <graphicData>
+            <drawSize>(4,4)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(4,4)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane>8</GlassPane>
+        </costList>
+    </ThingDef>
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAI</defName>
         <label>4x5 Skylight</label>
         <graphicData>
             <drawSize>(4,5)</drawSize>
@@ -602,7 +498,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAR</defName>
+        <defName>SkyLightAJ</defName>
         <label>4x6 Skylight</label>
         <graphicData>
             <drawSize>(4,6)</drawSize>
@@ -615,7 +511,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAS</defName>
+        <defName>SkyLightAK</defName>
         <label>4x7 Skylight</label>
         <graphicData>
             <drawSize>(4,7)</drawSize>
@@ -628,7 +524,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAT</defName>
+        <defName>SkyLightAL</defName>
         <label>4x8 Skylight</label>
         <graphicData>
             <drawSize>(4,8)</drawSize>
@@ -641,7 +537,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightRef</defName>
+        <defName>SkyLightAM</defName>
         <label>4x9 Skylight</label>
         <graphicData>
             <drawSize>(4,9)</drawSize>
@@ -654,7 +550,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAV</defName>
+        <defName>SkyLightAN</defName>
         <label>4x10 Skylight</label>
         <graphicData>
             <drawSize>(4,10)</drawSize>
@@ -667,7 +563,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAW</defName>
+        <defName>SkyLightAO</defName>
         <label>4x11 Skylight</label>
         <graphicData>
             <drawSize>(4,11)</drawSize>
@@ -680,7 +576,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAX</defName>
+        <defName>SkyLightAP</defName>
         <label>4x12 Skylight</label>
         <graphicData>
             <drawSize>(4,12)</drawSize>
@@ -693,7 +589,20 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAY</defName>
+        <defName>SkyLightAQ</defName>
+        <label>5x5 Skylight</label>
+        <graphicData>
+            <drawSize>(5,5)</drawSize>
+            <texPath>Things/Building/skylight1x4</texPath>
+        </graphicData>
+        <size>(5,5)</size>
+        <rotatable>true</rotatable>
+        <costList>
+            <GlassPane>13</GlassPane>
+        </costList>
+    </ThingDef>
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAR</defName>
         <label>5x6 Skylight</label>
         <graphicData>
             <drawSize>(5,6)</drawSize>
@@ -706,7 +615,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightAZ</defName>
+        <defName>SkyLightAS</defName>
         <label>5x7 Skylight</label>
         <graphicData>
             <drawSize>(5,7)</drawSize>
@@ -719,7 +628,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBA</defName>
+        <defName>SkyLightAT</defName>
         <label>5x8 Skylight</label>
         <graphicData>
             <drawSize>(5,8)</drawSize>
@@ -732,7 +641,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBB</defName>
+        <defName>SkyLightAU</defName>
         <label>5x9 Skylight</label>
         <graphicData>
             <drawSize>(5,9)</drawSize>
@@ -745,7 +654,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBC</defName>
+        <defName>SkyLightAV</defName>
         <label>5x10 Skylight</label>
         <graphicData>
             <drawSize>(5,10)</drawSize>
@@ -758,7 +667,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBD</defName>
+        <defName>SkyLightAW</defName>
         <label>5x11 Skylight</label>
         <graphicData>
             <drawSize>(5,11)</drawSize>
@@ -771,7 +680,7 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBE</defName>
+        <defName>SkyLightAX</defName>
         <label>5x12 Skylight</label>
         <graphicData>
             <drawSize>(5,12)</drawSize>
@@ -784,7 +693,20 @@
         </costList>
     </ThingDef>
     <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBF</defName>
+        <defName>SkyLightAY</defName>
+        <label>6x6 Skylight</label>
+        <graphicData>
+            <drawSize>(6,6)</drawSize>
+            <texPath>Things/Building/skylight3x3</texPath>
+        </graphicData>
+        <size>(6,6)</size>
+        <rotatable>false</rotatable>
+        <costList>
+            <GlassPane>18</GlassPane>
+        </costList>
+    </ThingDef>
+    <ThingDef ParentName="BasedSkyLight">
+        <defName>SkyLightAZ</defName>
         <label>6x7 Skylight</label>
         <graphicData>
             <drawSize>(6,7)</drawSize>
@@ -794,32 +716,6 @@
         <rotatable>true</rotatable>
         <costList>
             <GlassPane>21</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBG</defName>
-        <label>6x8 Skylight</label>
-        <graphicData>
-            <drawSize>(6,8)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
-        </graphicData>
-        <size>(6,8)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>24</GlassPane>
-        </costList>
-    </ThingDef>
-    <ThingDef ParentName="BasedSkyLight">
-        <defName>SkyLightBH</defName>
-        <label>6x9 Skylight</label>
-        <graphicData>
-            <drawSize>(6,9)</drawSize>
-            <texPath>Things/Building/skylight3x3</texPath>
-        </graphicData>
-        <size>(6,9)</size>
-        <rotatable>true</rotatable>
-        <costList>
-            <GlassPane>27</GlassPane>
         </costList>
     </ThingDef>
 </Defs>
